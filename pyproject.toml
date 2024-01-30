@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "fakeapiinjest"
+version = "0.1.0"
+description = ""
+authors = ["Kaio Silva <kaiohp.silva1@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+faker = "^22.6.0"
+sqlalchemy = "^2.0.25"
+flask = "^3.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
