@@ -3,21 +3,21 @@ This project is designed to generate a fictitious database and populate a relati
 
 ## Instalação e Configuração
 
-1. Clone o repositório:
+1. Clone the repository:
 ```bash
 git clone https://github.com/kaiohp/fakeapiinjest.git
 cd fakeapiinjest
 ```
-2. Configure a versão correta do Python com o pyenv:
+2. Set up the correct Python version using pyenv:
 ```bash
 pyenv install 3.12.1
 ```
-3. Instale as dependências do projeto:
+3. Install project dependencies:
 ```bash
-# O gerenciador de dependências do projeto é o Poetry
+# The project's dependency manager is Poetry
 poetry env use 3.12.1
-# Ative o ambiente virtual
+# Activate the virtual environment
 poetry shell
-# Instale as dependências
+# Install dependencies
 poetry install
 ```
