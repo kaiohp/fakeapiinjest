@@ -10,8 +10,16 @@ python = "^3.10"
 faker = "^22.6.0"
 sqlalchemy = "^2.0.25"
 flask = "^3.0.1"
+pytest = "^8.0.0"
+taskipy = "^1.12.2"
+mkdocs = "^1.5.3"
+mkdocstrings-python = "^1.8.0"
+pre-commit = "^3.6.0"
 
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.taskipy.tasks]
+export_requirements = { cmd = "poetry export --without-hashes -f requirements.txt -o requirements.txt", help = "Export the requirements to run on pip" }
